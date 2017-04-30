@@ -47,6 +47,6 @@ reqGet.on('error', function(e) {
 class CanadaPostProvider extends ProviderAbstract{
 
 }
-const myCPInstance = new CanadaPostProvider('shippo_test_d1f4e4bb3c2cb6237349cb6f1216d52bb9222062')
-const object_id = '6ee44027e3a543d18ff21294c571e528';
+const myCPInstance = new CanadaPostProvider('shippotoken')
+const object_id = 'xxxxxxxxxx';
 console.log(myCPInstance.getRates(object_id));
